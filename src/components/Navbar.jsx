@@ -15,7 +15,7 @@ const Navbar = () => {
           onClick={() => setClicked(!clicked)}
         ></i>
       </div>
-      <ul className="nav-menu">
+      <ul className={clicked ? "nav-menu active" : "nav-menu"}>
         {MenuItems.map((item, index) => (
           <li key={index}>
             <Link to={item.url} className={item.cName}>
