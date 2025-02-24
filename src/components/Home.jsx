@@ -1,5 +1,8 @@
 import React from "react";
 import Hero from "./Hero";
+import Destination from "./Destination";
+import Trip from "./Trip";
+import Footer from "./Footer";
 
 const Home = (props) => {
   return (
@@ -13,6 +16,9 @@ const Home = (props) => {
         btnText="Travel Plan"
         url="/"
       />
+      <Destination />
+      <Trip />
+      <Footer />
     </>
   );
 };
