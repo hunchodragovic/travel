@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "./Hero";
+import AboutUs from "./AboutUs";
 
 const About = (props) => {
   return (
@@ -10,6 +11,7 @@ const About = (props) => {
         title="About"
         btnClass="hide"
       />
+      <AboutUs />
     </>
   );
 };

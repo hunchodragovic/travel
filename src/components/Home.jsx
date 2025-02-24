@@ -18,7 +18,6 @@ const Home = (props) => {
       />
       <Destination />
       <Trip />
-      <Footer />
     </>
   );
 };
