@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { MenuItems } from "./MenuItems";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const [clicked, setClicked] = useState(false);
 
   return (
     <nav className="NavbarItems">
-      <h1 className="navbar-logo">Planet Voyage</h1>
+      <h1 className="navbar-logo" onClick={() => navigate("/")}>
+        Planet Voyage
+      </h1>
       <div className="menu-icons">
         <i
           className={clicked ? "fas fa-times" : "fas fa-bars"}
