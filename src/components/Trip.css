@@ -4,6 +4,10 @@
 }
 .trip h1 {
   font-size: 3rem;
+  padding-top: 2rem;
+}
+.trip p {
+  font-size: 1.5rem;
 }
 .trip-card {
   margin-top: 3rem;

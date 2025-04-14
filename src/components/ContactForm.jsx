@@ -1,8 +1,8 @@
 import { useState } from "react";
+import { addContactMessage } from "../config/firebase"; // Import Firestore function
 import "./ContactForm.css";
 
 const ContactForm = () => {
-  // State for form inputs
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -10,7 +10,6 @@ const ContactForm = () => {
     message: "",
   });
 
-  // Handle input change
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -19,14 +18,12 @@ const ContactForm = () => {
     });
   };
 
-  // Handle form submission
-  const handleSubmit = (e) => {
-    e.preventDefault(); // Prevents page refresh
-    console.log("Form Data Submitted:", formData);
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log("Submitting:", formData);
 
-    // Optional: Send data to a backend API here
+    await addContactMessage(formData); // Send data to Firestore
 
-    // Clear the form after submission
     setFormData({
       name: "",
       phone: "",
@@ -37,12 +34,12 @@ const ContactForm = () => {
 
   return (
     <div className="form-container">
-      <h1>Send a message to us!</h1>
+      <h1>!راسلنا الآن</h1>
       <form onSubmit={handleSubmit}>
         <input
           name="name"
           type="text"
-          placeholder="Name"
+          placeholder="الإسم الكامل"
           value={formData.name}
           onChange={handleChange}
           required
@@ -50,7 +47,7 @@ const ContactForm = () => {
         <input
           name="phone"
           type="number"
-          placeholder="Phone number"
+          placeholder="رقم الهاتف"
           value={formData.phone}
           onChange={handleChange}
           required
@@ -58,20 +55,20 @@ const ContactForm = () => {
         <input
           name="email"
           type="email"
-          placeholder="Email"
+          placeholder="Email الإيمايل"
           value={formData.email}
           onChange={handleChange}
           required
         />
         <textarea
           name="message"
-          placeholder="Message"
+          placeholder="مضمون رسالتك"
           value={formData.message}
           onChange={handleChange}
           rows="4"
           required
         ></textarea>
-        <button type="submit">Send a message</button>
+        <button type="submit">إرسال</button>
       </form>
     </div>
   );

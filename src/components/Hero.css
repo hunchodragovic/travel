@@ -24,7 +24,8 @@ img {
   width: 100%;
 }
 .hero-text h1 {
-  font-size: 3rem;
+  font-size: 4rem;
+
   font-weight: 800;
   background-color: #fff;
   background-clip: text;
@@ -32,7 +33,7 @@ img {
   -webkit-text-fill-color: transparent;
 }
 .hero-text p {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   color: #fff;
   padding: 0.5rem 0 2rem 0;
 }
@@ -54,7 +55,7 @@ img {
     padding: 10px 20px;
   }
   .hero-text p {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     padding: 0 0 2rem 0;
   }
   .hero-text .show {

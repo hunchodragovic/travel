@@ -7,8 +7,8 @@ const About = (props) => {
     <>
       <Hero
         cName="hero-mid"
-        heroImg="../../public/Images/night.jpg"
-        title="About"
+        heroImg="../../Images/traveler2.jpg"
+        title="من نحن"
         btnClass="hide"
       />
       <AboutUs />

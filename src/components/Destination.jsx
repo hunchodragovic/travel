@@ -4,46 +4,33 @@ import DestinationData from "./DestinationData";
 const Destination = () => {
   return (
     <div className="destination">
-      <h1>Popular Destinations</h1>
-      <p>Tours give you the opportunity to see a lot, within a time frame</p>
+      <h1>الوجهات المفضلة</h1>
+      <p>
+        انضم الى مجموعة كبيرة من محبي السفر الذين يختارون برامجهم السياحية
+        بعناية ..
+      </p>
       <DestinationData
         className="first-desc"
-        heading="Taal Volcan, Batangas"
-        text=" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis iusto,
-          sunt magnam sapiente unde earum eligendi rem assumenda nulla iure,
-          quam dignissimos incidunt fugiat. Fuga ducimus recusandae mollitia
-          fugit vitae tempora quos numquam. Dolor at quo inventore quos ex? Sunt
-          vitae alias nobis? Similique unde magni voluptates a dolor magnam
-          suscipit vero molestiae quae, qui at quasi ratione aut labore
-          provident harum ipsam iste inventore?"
-        img1="../../public/Images/1.jpg"
-        img2="../../public/Images/2.jpg"
+        heading=" Tunisie, تونـس"
+        text="معروفة بشمسها الدافئة في الشتاء وكثبانها الرملية ومنتجعاتها الصحية الرائعة، غالبًا ما يتم التقليل من شأن أصغر دولة في شمال إفريقيا من حيث جمالها. حيث إنها موطن لبعض الأماكن الخلابة حقًا – من الواحات الجبلية السحرية إلى المنتجعات الشاطئية الرائعة، لذلك صنفناها لك من أمتع الوجهات التي من الممكن لك أن تزورها
+"
+        img1="../../Images/tunisia1.jpg"
+        img2="../../Images/tunisia2.jpg"
       />
       <DestinationData
         className="first-desc-reverse"
-        heading="Taal Volcan, Batangas"
-        text=" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis iusto,
-          sunt magnam sapiente unde earum eligendi rem assumenda nulla iure,
-          quam dignissimos incidunt fugiat. Fuga ducimus recusandae mollitia
-          fugit vitae tempora quos numquam. Dolor at quo inventore quos ex? Sunt
-          vitae alias nobis? Similique unde magni voluptates a dolor magnam
-          suscipit vero molestiae quae, qui at quasi ratione aut labore
-          provident harum ipsam iste inventore?"
-        img1="../../public/Images/3.jpg"
-        img2="../../public/Images/4.jpg"
+        heading=" Tlemcen, تلمسان"
+        text="تلمسان هي مدينة عريقة تقع في شمال غرب الجزائر، وهي ذات طبيعة أخّاذة وجمال فريد، ولها تاريخ قديم، وقد ازدهرت كعاصمة لممالك المغرب الأوسط لقرون عديدة، وذلك إبان أكثر من حقبة تاريخية مثل فترة حكم الزيانيين والمرينيين والمرابطين، وتأثرت كثيرا بالحضارة الأندلسية الإسلامية، وما تزال تحتفظ بالكثير من إرثها الثقافي والمعماري الأندلسي"
+        img1="../../Images/tlemcen1.jpg"
+        img2="../../Images/tlemcen3.jpg"
       />
       <DestinationData
         className="first-desc"
-        heading="Taal Volcan, Batangas"
-        text=" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis iusto,
-          sunt magnam sapiente unde earum eligendi rem assumenda nulla iure,
-          quam dignissimos incidunt fugiat. Fuga ducimus recusandae mollitia
-          fugit vitae tempora quos numquam. Dolor at quo inventore quos ex? Sunt
-          vitae alias nobis? Similique unde magni voluptates a dolor magnam
-          suscipit vero molestiae quae, qui at quasi ratione aut labore
-          provident harum ipsam iste inventore?"
-        img1="../../public/Images/6.jpg"
-        img2="../../public/Images/8.jpg"
+        heading=" Béjaïa, بجـاية"
+        text="تعد ولاية بجاية، التي تقع على ساحل البحر الأبيض المتوسط في شمال الجزائر، واحدة من الوجهات السياحية الأكثر شهرة في البلاد. بالإضافة إلى ذلك تتمتع بجاية بتنوع طبيعي فريد يجعلها واحدة من أفضل الأماكن السياحية في ولاية بجاية، حيث تحتوي على شواطئ خلابة، جبال شاهقة، وأماكن تاريخية رائعة
+"
+        img1="../../Images/bejaia2.jpg"
+        img2="../../Images/bejaia.jpg"
       />
     </div>
   );

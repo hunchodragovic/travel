@@ -7,8 +7,8 @@ const Contact = (props) => {
     <>
       <Hero
         cName="hero-mid"
-        heroImg="../../public/Images/2.jpg"
-        title="Contact"
+        heroImg="../../Images/river.jpg"
+        title="إتصل بنا"
         btnClass="hide"
       />
       <ContactForm />

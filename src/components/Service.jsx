@@ -6,9 +6,10 @@ const Service = (props) => {
     <>
       <Hero
         cName="hero-mid"
-        heroImg="../../public/Images/night.jpg"
-        title="Service"
+        heroImg="../../public/Images/services.jpg"
+        title="الخدمات"
         btnClass="hide"
+        titleColor="black"
       />
       <Services />
     </>

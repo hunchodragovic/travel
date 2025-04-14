@@ -3,23 +3,24 @@ import TripData from "./TripData";
 const Trip = () => {
   return (
     <div className="trip">
-      <h1>Recent Trips</h1>
-      <p>You can discover unique destinations using Google Maps</p>
+      <p>لا تفوت الفرصة لعيش تجربة إستنائية بأقل الأسعار </p>
+      <h1>اخر الرحـلات</h1>
+
       <div className="trip-card">
         <TripData
-          image="../../public/Images/5.jpg"
-          heading="Trip in Indonesia"
-          text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil sit reiciendis in quo quas animi aut omnis dolore? Incidunt, quisquam doloribus? Quos error provident ipsum."
+          image="../../Images/janet.jpg"
+          heading="Trip to Djanet ،رحلة إلى جنات   "
+          text="رحلتنا إلى جانت كانت مذهلة! استمتعنا بجمال الطبيعة الصحراوية الخلابة وقضينا وقتًا رائعًا في استكشاف الكثبان الرملية والواحات. كان الطاقم ودودًا جدًا وجعل التجربة أكثر متعة ولا تُنسى"
         />
         <TripData
-          image="../../public/Images/6.jpg"
-          heading="Trip in Melburn"
-          text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil sit reiciendis in quo quas animi aut omnis dolore? Incidunt, quisquam doloribus? Quos error provident ipsum."
+          image="../../Images/oran.jpg"
+          heading="Trip to Oran ،رحلة إلى وهران   "
+          text="رحلتنا إلى وهران كانت رائعة! استمتعنا بأجواء المدينة الساحلية الجميلة وزرنا معالمها التاريخية المذهلة. قضينا وقتًا ممتعًا مع الطاقم، وكانت التجربة مليئة باللحظات الرائعة والمميزة"
         />
         <TripData
-          image="../../public/Images/8.jpg"
-          heading="Trip in France"
-          text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil sit reiciendis in quo quas animi aut omnis dolore? Incidunt, quisquam doloribus? Quos error provident ipsum."
+          image="../../Images/tunisia3.jpg"
+          heading="Trip to Tunisia ،رحلة إلى تونـس   "
+          text="رحلتنا إلى تونس كانت مميزة! استمتعنا باستكشاف شواطئها الساحرة وأسواقها التقليدية المليئة بالحياة. قضينا وقتًا رائعًا مع الطاقم، وكانت التجربة مليئة بالمغامرات والأجواء الرائعة!"
         />
       </div>
     </div>

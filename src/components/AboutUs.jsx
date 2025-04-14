@@ -4,41 +4,34 @@ const AboutUs = () => {
   return (
     <div className="about-container">
       <div className="about-section">
-        <h1>Our History</h1>
+        <h1>تاريخنا</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, id
-          sapiente consequatur accusantium, optio repellendus voluptas
-          cupiditate beatae illo iusto earum rerum non dolor iure vitae ducimus!
-          Unde, pariatur itaque? Tempore voluptate molestias ducimus optio,
-          alias vel non nemo eius aspernatur tempora odit maiores, explicabo
-          labore blanditiis! Praesentium, quaerat laudantium. Odit dolorum odio
-          fugiat fuga.
+          منذ تأسيس "بلانيت فوياج" عام 2015، ونحن نعمل على تقديم أفضل تجارب
+          السفر لعملائنا. زرنا جميع ولايات الجزائر، واستكشفنا أجمل الوجهات داخل
+          البلاد وخارجها. نسعى دائمًا لجعل رحلاتكم مميزة ومليئة بالمغامرات
+          والاكتشافات. مع خبرتنا الطويلة، نضمن لكم تجربة سفر فريدة ومريحة.
         </p>
       </div>
 
       <div className="about-section">
-        <h1>Our Mission</h1>
+        <h1>مهمتنا</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, id
-          sapiente consequatur accusantium, optio repellendus voluptas
-          cupiditate beatae illo iusto earum rerum non dolor iure vitae ducimus!
-          Unde, pariatur itaque? Tempore voluptate molestias ducimus optio,
-          alias vel non nemo eius aspernatur tempora odit maiores, explicabo
-          labore blanditiis! Praesentium, quaerat laudantium. Odit dolorum odio
-          fugiat fuga.
+          في بلانيت فوياج، نلتزم بتقديم رحلات سياحية متميزة تلبي تطلعات عملائنا.
+          نسعى لتمكين المسافرين من استكشاف أجمل الوجهات داخل الجزائر وخارجها
+          بأسلوب مريح وممتع. نركز على الجودة، التنظيم، والخدمة الراقية لضمان
+          تجربة لا تُنسى. رؤيتنا هي أن نجعل كل رحلة فرصة لاكتشاف الجديد وصنع
+          ذكريات رائعة.
         </p>
       </div>
 
       <div className="about-section">
-        <h1>Our Vision</h1>
+        <h1>رؤيتنا</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, id
-          sapiente consequatur accusantium, optio repellendus voluptas
-          cupiditate beatae illo iusto earum rerum non dolor iure vitae ducimus!
-          Unde, pariatur itaque? Tempore voluptate molestias ducimus optio,
-          alias vel non nemo eius aspernatur tempora odit maiores, explicabo
-          labore blanditiis! Praesentium, quaerat laudantium. Odit dolorum odio
-          fugiat fuga.
+          في بلانيت فوياج، نطمح لأن نكون الرواد في مجال السياحة، مقدمين تجارب
+          سفر مبتكرة تلبي تطلعات كل مسافر. نسعى لتوسيع آفاق رحلاتنا، وربط
+          عملائنا بأجمل الوجهات داخل الجزائر وحول العالم. رؤيتنا هي أن نجعل
+          السفر أكثر سهولة ومتعة، مع ضمان أعلى معايير الجودة والخدمة. نؤمن بأن
+          كل رحلة هي فرصة لاكتشاف العالم بأسلوب جديد ومميز.
         </p>
       </div>
     </div>

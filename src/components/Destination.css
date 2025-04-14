@@ -4,6 +4,11 @@
 .destination h1 {
   font-size: 3rem;
 }
+.destination p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(77, 73, 73);
+}
 .first-desc {
   display: flex;
   align-items: center;
@@ -25,6 +30,10 @@
 }
 .desc-text h2 {
   padding-bottom: 1rem;
+}
+.desc-text p {
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
 }
 .image {
   position: relative;

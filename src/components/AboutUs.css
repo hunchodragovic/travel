@@ -5,6 +5,8 @@
   background: #f8f8f8;
   border-radius: 10px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  direction: rtl; /* Set Right-to-Left */
+  text-align: right; /* Align text to the right */
 }
 
 .about-section {
@@ -30,21 +32,21 @@
   padding-bottom: 0.5rem;
 }
 
-/* Paragraph Styling with Border */
 .about-container p {
   padding: 1.5rem;
-  line-height: 1.6;
+  line-height: 1.8;
   font-size: 1.1rem;
   color: #555;
   border: 2px solid #01959a;
-  border-left: 5px solid #01959a;
+  border-right: 5px solid #01959a; /* Change border side */
+  border-left: none; /* Remove left border */
   border-radius: 8px;
   background: #fff;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
   transition: 0.3s ease-in-out;
+  text-align: right; /* Align text to the right */
 }
 
-/* Hover effect for paragraphs */
 .about-container p:hover {
   background: #01959a;
   color: white;

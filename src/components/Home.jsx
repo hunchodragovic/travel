@@ -9,11 +9,11 @@ const Home = (props) => {
     <>
       <Hero
         cName="hero"
-        heroImg="../../public/Images/12.jpg"
-        title="Your Journey Your Story"
-        text="Choose Your Favourite Destination."
+        heroImg="../../Images/12.jpg"
+        title="رحلتك... هي حكايتك"
+        text=".اختر وجهتك المفضلة"
         btnClass="show"
-        btnText="Travel Plan"
+        btnText="خطة السـفـر"
         url="/"
       />
       <Destination />
